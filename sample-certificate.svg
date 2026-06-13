@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1131" viewBox="0 0 1600 1131" role="img" aria-labelledby="title desc">
+  <title id="title">Sample certificate</title>
+  <desc id="desc">A decorative sample certificate placeholder.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffef8"/>
+      <stop offset="1" stop-color="#f7fbfa"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#205c73"/>
+      <stop offset="0.5" stop-color="#d0a73f"/>
+      <stop offset="1" stop-color="#5a8c6a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1131" fill="#e8efed"/>
+  <rect x="86" y="76" width="1428" height="979" rx="10" fill="url(#paper)" stroke="#2d5b66" stroke-width="8"/>
+  <rect x="126" y="116" width="1348" height="899" rx="4" fill="none" stroke="#d0a73f" stroke-width="4"/>
+  <rect x="152" y="142" width="1296" height="847" rx="2" fill="none" stroke="#b8cbc6" stroke-width="2"/>
+
+  <path d="M306 235h988" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <text x="800" y="318" fill="#1f3e44" font-family="Georgia, 'Times New Roman', serif" font-size="78" text-anchor="middle" letter-spacing="2">CERTIFICATE</text>
+  <text x="800" y="376" fill="#5d7773" font-family="Arial, Helvetica, sans-serif" font-size="28" text-anchor="middle" letter-spacing="8">OF ACHIEVEMENT</text>
+
+  <text x="800" y="472" fill="#425450" font-family="Arial, Helvetica, sans-serif" font-size="30" text-anchor="middle">This certificate is proudly presented to</text>
+  <text x="800" y="575" fill="#192a2c" font-family="Georgia, 'Times New Roman', serif" font-size="72" text-anchor="middle">Your Name Here</text>
+  <path d="M462 610h676" stroke="#d0a73f" stroke-width="3" stroke-linecap="round"/>
+  <text x="800" y="678" fill="#425450" font-family="Arial, Helvetica, sans-serif" font-size="29" text-anchor="middle">For successfully completing the certificate requirement.</text>
+
+  <g transform="translate(706 730)">
+    <circle cx="94" cy="94" r="74" fill="#d0a73f"/>
+    <circle cx="94" cy="94" r="55" fill="#fff8da"/>
+    <text x="94" y="103" fill="#8a6416" font-family="Georgia, 'Times New Roman', serif" font-size="30" text-anchor="middle">SEAL</text>
+    <path d="M48 154l-22 94 67-45 67 45-22-94" fill="#205c73"/>
+    <path d="M94 168l-34 122 34-24 34 24z" fill="#5a8c6a"/>
+  </g>
+
+  <g fill="#405b56" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    <text x="366" y="897" text-anchor="middle">Authorized Signature</text>
+    <path d="M228 850h276" stroke="#405b56" stroke-width="2"/>
+    <text x="1234" y="897" text-anchor="middle">Date</text>
+    <path d="M1096 850h276" stroke="#405b56" stroke-width="2"/>
+  </g>
+</svg>
